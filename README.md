@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 # ❄️ Frost Mountain Blog
+
+live link:
+https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Sethyasto/
 
 Frost Mountain Blog is a static, responsive blog website built for the Week 8 final assignment. It simulates a real-world blogging platform with essential features like blog posts, category tags, search, comments (mock), author profiles, and more.
 
@@ -39,30 +41,32 @@ Frost Mountain Blog is a static, responsive blog website built for the Week 8 fi
 
 ## 🚀 Folder Structure
 
-=======
-# Final Project and Deployment
+frost-mountain-blog/
+├── index.html
+├── about.html
+├── contact.html
+├── style.css
+├── script.js
+├── README.md
+├── images/
+│├── videos/
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+---
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## 📤 How to Run Locally
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/frost-mountain-blog.git
 
-## Tasks
+🧠 Author
+Sethyasto – Designed and developed as part of the PLP 2025 Web Development final assignment.
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
 
-Good luck and happy coding! 🚀💻
->>>>>>> 82a3d41004b3a8f5f6a03188f1da2411bfc1cdfb
+---
+
+## ✅ GitHub Push Instructions
+
+1. **Initialize Git (if not already done):**
+   ```bash
+   git init
