@@ -5,7 +5,7 @@ https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Seth
 
 Frost Mountain Blog is a static, responsive blog website built for the Week 8 final assignment. It simulates a real-world blogging platform with essential features like blog posts, category tags, search, comments (mock), author profiles, and more.
 
----
+-
 
 ## 🌐 Features
 
