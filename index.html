@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Frost Mountain Blog - Adventure and Climbing Stories" />
+  <title>Frost Mountain Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <h1>Frost Mountain Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section (restored image background) -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h2>Welcome to the Peak of Adventure</h2>
+      <p>Read stories from climbers, guides, and thrill-seekers.</p>
+      <button onclick="playClick()">Explore Blog</button>
+    </div>
+  </section>
+
+  <!-- Featured Blog Posts -->
+  <section class="blog-section">
+    <h2>Featured Posts</h2>
+    <div class="blog-container">
+      <article class="blog-post">
+        <img src="images/mtn4.jpg" alt="Climb Image" />
+        <h3>Summiting Mount Kenya</h3>
+        <p>Experience the highs and lows of the highest peak in Kenya...</p>
+        <button onclick="likePost(this)">Like 👍</button>
+      </article>
+
+      <article class="blog-post">
+        <img src="images/mtn2.jpg" alt="Snow Trek" />
+        <h3>Snow Trek with Friends</h3>
+        <p>An unforgettable snow adventure across the Aberdares...</p>
+        <button onclick="likePost(this)">Like 👍</button>
+      </article>
+    </div>
+    
+  </section>
+
+  <!-- Videos Section -->
+  <section class="videos-section">
+    <h2>Videos</h2>
+    <video width="100%" controls>
+      <source src="videos/mountain-climb.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact us: s.aminga254@gmail.com | frostmountain@gmail.com</p>
+    <div class="socials">
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">WhatsApp</a>
+    </div>
+  </footer>
+
+  <audio id="clickSound" src="click.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+  <section class="related-posts">
+  <h3>Related Posts</h3>
+  <ul>
+    <li><a href="#">How to Pack for a Mountain Expedition</a></li>
+    <li><a href="#">Top 5 Peaks for Beginners</a></li>
+    <li><a href="#">Survival Tips from the Frost Guides</a></li>
+  </ul>
+</section>
+
+</body>
+</html>

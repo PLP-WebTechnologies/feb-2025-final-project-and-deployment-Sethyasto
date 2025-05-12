@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Frost Mountain Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Frost Mountain Blog</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <h2>Contact Us</h2>
+      <p>Have a question or want to get in touch? Fill out the form below.</p>
+    </div>
+  </section>
+
+  <section class="blog-section">
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" onclick="playClickSound()">Send</button>
+    </form>
+    <p id="formStatus" class="form-status"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Frost Mountain Climbers. All rights reserved.</p>
+    <p>Contact: s.aminga254@gmail.com | frostmountain@gmail.com</p>
+    <div class="socials">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+
+  <audio id="clickSound" src="click.mp3" preload="auto"></audio>
+</body>
+</html>
